@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{9DBE3AA1-CA24-4040-8BDF-C14790E3D1AB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="aspnet-mongodb/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="aspnet-mongodb/Services/VisitorService.cs" Line="33" Column="2" />
+      <File FileName="aspnet-mongodb/Services/IVisitorService.cs" Line="13" Column="2" />
+      <File FileName="aspnet-mongodb/Controllers/VisitorsController.cs" Line="36" Column="9" />
+      <File FileName="aspnet-mongodb/Models/MongoContext.cs" Line="8" Column="42" />
+      <File FileName="aspnet-mongodb/appsettings.json" Line="13" Column="17" />
+      <File FileName="aspnet-mongodb/Startup.cs" Line="35" Column="16" />
+      <File FileName="aspnet-mongodb/Models/IMongoContext.cs" Line="7" Column="29" />
+      <File FileName="aspnet-mongodb/Views/Home/Index.cshtml" Line="29" Column="53" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.aspnet-mongodb PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

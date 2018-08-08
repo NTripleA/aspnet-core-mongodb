@@ -1,0 +1,11 @@
+/Users/nelsonalemaralonso/Documents/DotNet/aspnet-mongodb/aspnet-mongodb/obj/Debug/netcoreapp2.0/aspnet-mongodb.csprojResolveAssemblyReference.cache
+/Users/nelsonalemaralonso/Documents/DotNet/aspnet-mongodb/aspnet-mongodb/obj/Debug/netcoreapp2.0/aspnet-mongodb.csproj.CoreCompileInputs.cache
+/Users/nelsonalemaralonso/Documents/DotNet/aspnet-mongodb/aspnet-mongodb/obj/Debug/netcoreapp2.0/aspnet-mongodb.AssemblyInfoInputs.cache
+/Users/nelsonalemaralonso/Documents/DotNet/aspnet-mongodb/aspnet-mongodb/obj/Debug/netcoreapp2.0/aspnet-mongodb.AssemblyInfo.cs
+/Users/nelsonalemaralonso/Documents/DotNet/aspnet-mongodb/aspnet-mongodb/bin/Debug/netcoreapp2.0/aspnet-mongodb.deps.json
+/Users/nelsonalemaralonso/Documents/DotNet/aspnet-mongodb/aspnet-mongodb/bin/Debug/netcoreapp2.0/aspnet-mongodb.runtimeconfig.json
+/Users/nelsonalemaralonso/Documents/DotNet/aspnet-mongodb/aspnet-mongodb/bin/Debug/netcoreapp2.0/aspnet-mongodb.runtimeconfig.dev.json
+/Users/nelsonalemaralonso/Documents/DotNet/aspnet-mongodb/aspnet-mongodb/bin/Debug/netcoreapp2.0/aspnet-mongodb.dll
+/Users/nelsonalemaralonso/Documents/DotNet/aspnet-mongodb/aspnet-mongodb/bin/Debug/netcoreapp2.0/aspnet-mongodb.pdb
+/Users/nelsonalemaralonso/Documents/DotNet/aspnet-mongodb/aspnet-mongodb/obj/Debug/netcoreapp2.0/aspnet-mongodb.dll
+/Users/nelsonalemaralonso/Documents/DotNet/aspnet-mongodb/aspnet-mongodb/obj/Debug/netcoreapp2.0/aspnet-mongodb.pdb
