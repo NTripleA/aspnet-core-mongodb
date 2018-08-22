@@ -1,4 +1,3 @@
-﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using aspnetmongodb.Models;
@@ -21,8 +20,8 @@ namespace aspnetmongodb
             return await _context
             .Visitors
             .Find(_ => true)
-            .ToListAsync();  
-            
+            .ToListAsync();
+
         }
 
         public async Task CreateAsync(Visitor visitor)

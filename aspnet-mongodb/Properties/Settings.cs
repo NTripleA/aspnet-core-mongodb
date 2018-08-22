@@ -1,4 +1,3 @@
-﻿using System;
 namespace aspnetmongodb.Properties
 {
     public class Settings

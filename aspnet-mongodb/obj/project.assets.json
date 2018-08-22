@@ -5085,7 +5085,7 @@
       ]
     },
     "Microsoft.AspNetCore.All/2.0.0": {
-      "sha512": "AQ4SM2ZY+yhkQ+kJADXP6OpBpR4xWScYsy7WtV77LxXSroSc8PBe3LORa1eycC1zF3ob/vq6WAn5SEtElaOZcQ==",
+      "sha512": "J0Z1ulaQrkccKicHkO1fka2nfRIZ6mVosNhNxZA665tEU9sahsIXnatusa7QrE6ucQX9RVNwfftwz9cJRjidaQ==",
       "type": "package",
       "path": "microsoft.aspnetcore.all/2.0.0",
       "files": [
@@ -10496,7 +10496,7 @@
       ]
     },
     "System.Private.DataContractSerialization/4.1.1": {
-      "sha512": "lcqFBUaCZxPiUkA4dlSOoPZGtZsAuuElH2XHgLwGLxd7ZozWetV5yiz0qGAV2AUYOqw97MtZBjbLMN16Xz4vXA==",
+      "sha512": "VN2Y7Xq9Rdqfq5tGd80DAiUJ9MoqQdVvdmg2G3eM5o2CBsSHNusRBNbw8eqS5Bnw23BSG8DcVFO7cCUsqFWp4A==",
       "type": "package",
       "path": "system.private.datacontractserialization/4.1.1",
       "files": [
@@ -13074,13 +13074,13 @@
       "projectName": "aspnet-mongodb",
       "projectPath": "/Users/nelsonalemaralonso/Documents/DotNet/aspnet-mongodb/aspnet-mongodb/aspnet-mongodb.csproj",
       "packagesPath": "/Users/nelsonalemaralonso/.nuget/packages/",
-      "outputPath": "/Users/nelsonalemaralonso/Documents/DotNet/aspnet-mongodb/aspnet-mongodb/obj",
+      "outputPath": "/Users/nelsonalemaralonso/Documents/DotNet/aspnet-mongodb/aspnet-mongodb/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/nelsonalemaralonso/.config/NuGet/NuGet.Config"
+        "/Users/nelsonalemaralonso/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -13102,19 +13102,18 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "2.0",
-            "autoReferenced": true
-          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
           },
           "MongoDB.Driver": {
             "target": "Package",
-            "version": "2.7.0"
+            "version": "[2.7.0, )"
           }
         },
         "imports": [
