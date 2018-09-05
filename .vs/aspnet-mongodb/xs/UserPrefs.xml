@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{9DBE3AA1-CA24-4040-8BDF-C14790E3D1AB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="aspnet-mongodb/Controllers/VisitorsController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="aspnet-mongodb/Services/IVisitorService.cs">
     <Files>
       <File FileName="aspnet-mongodb/Services/VisitorService.cs" Line="1" Column="1" />
-      <File FileName="aspnet-mongodb/Services/IVisitorService.cs" Line="1" Column="1" />
+      <File FileName="aspnet-mongodb/Services/IVisitorService.cs" Line="13" Column="1" />
       <File FileName="aspnet-mongodb/Controllers/VisitorsController.cs" Line="1" Column="1" />
       <File FileName="aspnet-mongodb/Models/MongoContext.cs" Line="1" Column="1" />
       <File FileName="aspnet-mongodb/appsettings.json" Line="13" Column="17" />

@@ -28,12 +28,12 @@ namespace aspnetmongodb.Controllers
         }
 
         // POST api/values
-        [HttpPost]
-        public async IEnumerable<string> Post([FromBody]Visitor visitor)
-        {
-            await _visitorService.CreateAsync(visitor);
-            return new string[] { _htmlEncoder.Encode("Hello " + visitor.Name) };
-        }
+       [HttpPost]
+       public async Task<IActionResult> Post([FromBody]Visitor visitor)
+       {
+           await _visitorService.CreateAsync(visitor);
+           return new OkObjectResult(visitor);
+       }
 
     }
 }
