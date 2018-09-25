@@ -6,7 +6,7 @@ namespace aspnetmongodb.Services
 {
     public interface IVisitorService
     {
-        Task CreateAsync(Visitor visitor);
-        Task<IEnumerable<Visitor>> GetAllAsync();
+        void Create(Visitor visitor);
+        IEnumerable<string> GetAll();
     }
 }

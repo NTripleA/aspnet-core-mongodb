@@ -10,7 +10,9 @@ namespace aspnetmongodb.Models
         public  MongoContext(IOptions<Settings> options)
         {
             var client = new MongoClient(options.Value.ConnectionString);
-            _db = client.GetDatabase(options.Value.Database);
+            if (client != null) {
+                _db = client.GetDatabase(options.Value.Database);
+              }
         }
 
         public IMongoCollection<Visitor> Visitors => _db.GetCollection<Visitor>("Visitors");

@@ -7,6 +7,13 @@ namespace aspnetmongodb.Models
     {
         [BsonId]
         public ObjectId Id { get; set; }
+        [BsonElement("VisitorId")]
+        public int VistiorId { get; set; }
+        [BsonElement("Name")]
         public string Name { get; set; }
+
+        public string toString(){
+          return Name;
+        }
     }
 }

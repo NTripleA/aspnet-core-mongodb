@@ -1,5 +1,6 @@
 using aspnetmongodb.Models;
 using aspnetmongodb.Properties;
+using aspnetmongodb.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -37,13 +38,14 @@ namespace aspnet_mongodb
             });
 
             services.AddTransient<IMongoContext, MongoContext>();
+            services.AddTransient<IVisitorService, VisitorService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             app.UseCors("CorsPolicy");
-            
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

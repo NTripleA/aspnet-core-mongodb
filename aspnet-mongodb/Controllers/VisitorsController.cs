@@ -8,6 +8,7 @@ using System.Collections.Generic;
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 namespace aspnetmongodb.Controllers
 {
+    [Produces("application/json")]
     [Route("api/[controller]")]
     public class VisitorsController : Controller
     {
@@ -22,17 +23,25 @@ namespace aspnetmongodb.Controllers
 
         // GET: api/values
         [HttpGet]
-        public async Task<IActionResult> Get()
+        public IEnumerable<string> Get()
         {
-            return new ObjectResult(await _visitorService.GetAllAsync());
+          if (_visitorService == null)
+          {
+              return new string[] { "No database connection" };
+          }
+          else
+          {
+              return _visitorService.GetAll();
+
+          }
         }
 
         // POST api/values
        [HttpPost]
-       public async Task<IActionResult> Post([FromBody]Visitor visitor)
+       public string Post([FromBody]Visitor visitor)
        {
-           await _visitorService.CreateAsync(visitor);
-           return new OkObjectResult(visitor);
+           _visitorService.Create(visitor);
+           return "Hello, "+visitor.Name+"!";
        }
 
     }

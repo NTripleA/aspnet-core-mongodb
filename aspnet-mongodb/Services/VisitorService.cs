@@ -5,7 +5,7 @@ using aspnetmongodb.Services;
 using Microsoft.EntityFrameworkCore;
 using MongoDB.Driver;
 
-namespace aspnetmongodb
+namespace aspnetmongodb.Services
 {
     public class VisitorService : IVisitorService
     {
@@ -15,18 +15,21 @@ namespace aspnetmongodb
             _context = context;
         }
 
-        public async Task<IEnumerable<Visitor>> GetAllAsync()
+        public IEnumerable<string> GetAll()
         {
-            return await _context
-            .Visitors
-            .Find(_ => true)
-            .ToListAsync();
+          List<Visitor> visitors = _context.Visitors.Find(_ => true).ToList();
+          List<string> names = new List<string>();;
+          foreach(Visitor v in visitors)
+          {
+            names.Add(v.Name);
+          }
+          return names;
 
         }
 
-        public async Task CreateAsync(Visitor visitor)
+        public void Create(Visitor visitor)
         {
-            await _context.Visitors.InsertOneAsync(visitor);
+            _context.Visitors.InsertOne(visitor);
         }
     }
 }
